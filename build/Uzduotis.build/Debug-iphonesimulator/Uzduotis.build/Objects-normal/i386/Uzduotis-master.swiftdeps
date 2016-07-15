@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "72364afa123a8e5251efc1ba0bafe2dd"
+build_time: [520779129, 359695000]
+inputs:
+  "/Users/darius/Documents/xcode/Uzduotis/Uzduotis/Seniunijos+CoreDataProperties.swift": [520341894, 0]
+  "/Users/darius/Documents/xcode/Uzduotis/Uzduotis/DataTableViewController.swift": [520779129, 0]
+  "/Users/darius/Documents/xcode/Uzduotis/Uzduotis/Seniunijos.swift": [520341894, 0]
+  "/Users/darius/Documents/xcode/Uzduotis/Uzduotis/Duomenys.swift": [520341894, 0]
+  "/Users/darius/Documents/xcode/Uzduotis/Uzduotis/Duomenys+CoreDataProperties.swift": [520341894, 0]
+  "/Users/darius/Documents/xcode/Uzduotis/Uzduotis/AppDelegate.swift": [520692749, 0]

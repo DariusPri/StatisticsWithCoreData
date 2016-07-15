@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Duomenys" representedClassName=".Duomenys" syncable="YES">
+        <attribute name="data_nuo" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gimimo_data" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gimimo_valst" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lytis" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seim_padet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="viso_vaiku" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="sen" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Seniunijos" inverseName="sen" inverseEntity="Seniunijos" syncable="YES"/>
+    </entity>
+    <entity name="Seniunijos" representedClassName=".Seniunijos" syncable="YES">
+        <attribute name="seniunija" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sen" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Duomenys" inverseName="sen" inverseEntity="Duomenys" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Duomenys" positionX="-6770" positionY="-2313" width="128" height="163"/>
+        <element name="Seniunijos" positionX="-6489" positionY="-2259" width="128" height="73"/>
+    </elements>
+</model>
